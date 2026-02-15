@@ -284,3 +284,15 @@ dbt test
 dbt docs generate
 dbt docs serve
 ```
+
+## Results
+
+### Snowflake DB
+
+![Database](images/snowflake-database.png)
+
+### Prefect Flow
+
+![Tasks](images/ETL-Tasks.png)
+
+![Flows](images/Prefect-Flows.png)
