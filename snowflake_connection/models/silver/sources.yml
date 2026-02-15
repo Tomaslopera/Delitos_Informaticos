@@ -1,0 +1,25 @@
+version: 2
+
+sources:
+  - name: bronze
+    description: "Raw data loaded from S3"
+    database: delitos_informaticos_db
+    schema: bronze
+    tables:
+      - name: delitos_raw
+        description: "Raw crime data from Colombian open data portal"
+        columns:
+          - name: fecha_hecho
+            description: "Date when the crime occurred"
+          - name: cantidad
+            description: "Number of incidents"
+          - name: departamento
+            description: "Department (state) name"
+          - name: municipio
+            description: "Municipality (city) name"
+          - name: descripcion_conducta
+            description: "Crime description"
+          - name: cod_depto
+            description: "Department code"
+          - name: cod_muni
+            description: "Municipality code"

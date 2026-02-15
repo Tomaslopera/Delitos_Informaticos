@@ -1,0 +1,17 @@
+[project]
+name = "delitos-informaticos"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "boto3>=1.42.49",
+    "dbt-snowflake>=1.11.2",
+    "jupyter>=1.1.1",
+    "pandas>=3.0.0",
+    "prefect>=3.6.17",
+    "pyarrow>=23.0.0",
+    "python-dotenv>=1.2.1",
+    "snowflake-connector-python>=4.3.0",
+    "sodapy>=2.2.0",
+]
